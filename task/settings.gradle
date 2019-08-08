@@ -1,4 +1,0 @@
-rootProject.name = 'task'
-include 'micro1'
-include 'micro2'
-

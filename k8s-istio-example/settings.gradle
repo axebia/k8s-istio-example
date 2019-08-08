@@ -1,0 +1,4 @@
+rootProject.name = 'k8s-istio-example'
+include 'hello-service'
+include 'world-service'
+
