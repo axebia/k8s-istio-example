@@ -6,6 +6,7 @@ bin/
 tmp/
 gradle/
 var/
+task/
 *.tmp
 *.bak
 *.swp

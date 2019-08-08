@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.deployment.name }}
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+      matchLabels:
+        app: {{ .Values.deployment.name }}
+  replicas: {{ .Values.replicaCount }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.deployment.name }}
+    spec:
+      containers:
+        - name: {{ .Values.deployment.name }}
+          image: {{ .Values.deployment.image }}
+          env:
+          - name: WORLD_SERVICE_URL
+            value: {{ .Values.deployment.WORLD_SERVICE_URL }}
+          - name: MESSAGE
+            value: {{ .Values.deployment.MESSAGE }}
+          ports:
+            - containerPort: {{ .Values.deployment.port }}

@@ -1,4 +1,4 @@
-package com.poc;
+package hello;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
