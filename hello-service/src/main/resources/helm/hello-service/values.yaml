@@ -7,8 +7,11 @@ deployment:
   name: hello-service
   image: singhravindra/hello-service:latest
   port: '8080'
-  WORLD_SERVICE_URL: 'world-service:80'
-  MESSAGE: 'hello'
+configMap:
+  name: hello-service
+  data:
+    message: 'hello'
+    world_service_address: 'http://world-service-world-service:80'
 image:
   repository: nginx
   tag: stable
@@ -53,3 +56,9 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+istio:
+  enabled: true
+  virtualservice:
+    name: hello-service
+release:
+  type: stable

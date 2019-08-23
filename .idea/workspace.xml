@@ -1,7 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dca358a7-da18-4d7e-8f44-b71bdcde35cf" name="Default Changelist" comment="" />
+    <list default="true" id="dca358a7-da18-4d7e-8f44-b71bdcde35cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/helm-service-account.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-cni/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-cni/templates/_labels.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-cni/templates/istio-cni.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-cni/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-cni/values_gke.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/files/crd-10.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/files/crd-11.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/files/crd-12.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/files/crd-certmanager-10.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/files/crd-certmanager-11.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/clusterrole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/clusterrolebinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/configmap-crd-10.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/configmap-crd-11.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/configmap-crd-12.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/configmap-crd-certmanager-10.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/configmap-crd-certmanager-11.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/job-crd-10.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/job-crd-11.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/job-crd-12.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/job-crd-certmanager-10.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/job-crd-certmanager-11.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/certmanager/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/certmanager/templates/NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/certmanager/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/certmanager/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/certmanager/templates/issuer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/certmanager/templates/poddisruptionbudget.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/certmanager/templates/rbac.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/certmanager/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/certmanager/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/galley/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/galley/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/galley/templates/clusterrole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/galley/templates/clusterrolebinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/galley/templates/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/galley/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/galley/templates/poddisruptionbudget.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/galley/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/galley/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/galley/templates/validatingwebhookconfiguration.yaml.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/galley/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/templates/_affinity.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/templates/autoscale.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/templates/poddisruptionbudget.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/templates/preconfigured.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/templates/role.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/templates/rolebindings.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/galley-dashboard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/istio-mesh-dashboard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/istio-performance-dashboard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/istio-service-dashboard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/istio-workload-dashboard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/mixer-dashboard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/pilot-dashboard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/templates/configmap-custom-resources.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/templates/configmap-dashboards.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/templates/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/templates/create-custom-resources-job.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/templates/grafana-ports-mtls.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/templates/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/templates/pvc.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/templates/tests/test-grafana-connection.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/istiocoredns/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/istiocoredns/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/istiocoredns/templates/clusterrole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/istiocoredns/templates/clusterrolebinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/istiocoredns/templates/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/istiocoredns/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/istiocoredns/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/istiocoredns/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/istiocoredns/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/templates/clusterrole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/templates/clusterrolebinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/templates/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/templates/demosecret.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/templates/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/templates/tests/test-kiali-connection.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/templates/autoscale.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/templates/clusterrole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/templates/clusterrolebinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/templates/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/templates/poddisruptionbudget.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/nodeagent/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/nodeagent/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/nodeagent/templates/clusterrole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/nodeagent/templates/clusterrolebinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/nodeagent/templates/daemonset.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/nodeagent/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/nodeagent/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/templates/autoscale.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/templates/clusterrole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/templates/clusterrolebinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/templates/meshexpansion.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/templates/poddisruptionbudget.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/templates/clusterrole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/templates/clusterrolebindings.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/templates/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/templates/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/templates/tests/test-prometheus-connection.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/cleanup-secrets.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/clusterrole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/clusterrolebinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/create-custom-resources-job.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/enable-mesh-mtls.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/enable-mesh-permissive.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/meshexpansion.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/templates/tests/test-citadel-connection.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/sidecarInjectorWebhook/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/sidecarInjectorWebhook/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/sidecarInjectorWebhook/templates/clusterrole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/sidecarInjectorWebhook/templates/clusterrolebinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/sidecarInjectorWebhook/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/sidecarInjectorWebhook/templates/mutatingwebhook.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/sidecarInjectorWebhook/templates/poddisruptionbudget.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/sidecarInjectorWebhook/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/sidecarInjectorWebhook/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/sidecarInjectorWebhook/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/tracing/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/tracing/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/tracing/templates/deployment-jaeger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/tracing/templates/deployment-zipkin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/tracing/templates/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/tracing/templates/service-jaeger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/tracing/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/tracing/templates/tests/test-tracing-connection.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/tracing/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/example-values/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/example-values/values-istio-example-sds-vault.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/example-values/values-istio-gateways.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/example-values/values-istio-googleca.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/example-values/values-istio-multicluster-gateways.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/files/injection-template.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/requirements.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/_affinity.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/_podDisruptionBudget.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/clusterrole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/clusterrolebinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/endpoints.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/install-custom-resources.sh.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/sidecar-injector-configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/values-istio-demo-auth.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/values-istio-demo.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/values-istio-minimal.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/values-istio-remote.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/values-istio-sds-auth.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/istio-components/istio-gateway.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infra/namespace/demo.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/configMap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-service/src/main/resources/kubernetes/configMap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-service/src/main/resources/kubernetes/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-service/src/main/resources/kubernetes/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/configMap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/virtualservice.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/values-canary.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/world-service/src/main/resources/kubernetes/configMap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/world-service/src/main/resources/kubernetes/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/world-service/src/main/resources/kubernetes/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hello-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/deployment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/world-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/world-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/values.yaml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/hello-service/.gradle/" />
@@ -29,7 +260,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="k8s-istio-example" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -41,11 +277,154 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="dockerfile" value="1" />
+          <entry key="gradle" value="4" />
+          <entry key="helmignore" value="1" />
+          <entry key="json" value="7" />
+          <entry key="md" value="3" />
+          <entry key="properties" value="1" />
+          <entry key="txt" value="1" />
+          <entry key="yaml" value="69" />
+          <entry key="yml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="4" />
+          <entry key="JSON" value="7" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="1" />
+          <entry key="Specification" value="3" />
+          <entry key="YAML" value="76" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gradle" value="86" />
+          <entry key="json" value="46" />
+          <entry key="md" value="4" />
+          <entry key="txt" value="1416" />
+          <entry key="yaml" value="637" />
+          <entry key="yml" value="75" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="86" />
+          <entry key="JSON" value="46" />
+          <entry key="PLAIN_TEXT" value="1416" />
+          <entry key="Specification" value="4" />
+          <entry key="YAML" value="712" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/values-canary.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/values.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/values.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/values.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/.helmignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello-service/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="43" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/world-service/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>global</find>
+      <find>memo</find>
+      <find>mtls</find>
+      <find>datasource</find>
+      <find>}}</find>
+      <find>reporter=\&quot;desti</find>
+      <find>srcns</find>
+      <find>\{\{</find>
+      <find>oming Requests by Destination And Response Code</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\}\}</replace>
+      <replace>{{ &quot;{{&quot; }}</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -819,12 +1198,12 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7826636034000" />
+        <entry key="$PROJECT_DIR$" value="7830285669000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2489274926" />
-        <entry key="$PROJECT_DIR$/hello-service/build.gradle" value="3116618443" />
+        <entry key="$PROJECT_DIR$/hello-service/build.gradle" value="3595399029" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="740020037" />
-        <entry key="$PROJECT_DIR$/world-service/build.gradle" value="187028118" />
+        <entry key="$PROJECT_DIR$/world-service/build.gradle" value="3205555487" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1118,21 +1497,186 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Infra/istio-1.2.4/helm/README.md" />
+        <option value="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/values.yaml" />
+        <option value="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/tracing/values.yaml" />
+        <option value="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/values.yaml" />
+        <option value="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/values.yaml" />
+        <option value="$PROJECT_DIR$/istio-gateway.yaml" />
+        <option value="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/istio-performance-dashboard.json" />
+        <option value="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/mixer-dashboard.json" />
+        <option value="$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/istio-service-dashboard.json" />
+        <option value="$PROJECT_DIR$/Infra/istio-components/istio-gateway.yaml" />
+        <option value="$PROJECT_DIR$/Infra/namespace/demo.yaml" />
+        <option value="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/service.yml" />
+        <option value="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/virtualservice.yaml" />
+        <option value="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/service.yaml" />
+        <option value="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/virtualservice.yaml" />
+        <option value="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/configMap.yaml" />
+        <option value="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/deployment.yaml" />
+        <option value="$PROJECT_DIR$/hello-service/src/main/resources/kubernetes/service.yaml" />
+        <option value="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/configMap.yaml" />
+        <option value="$PROJECT_DIR$/hello-service/src/main/resources/kubernetes/configMap.yaml" />
+        <option value="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/deployment.yml" />
+        <option value="$PROJECT_DIR$/hello-service/src/main/resources/kubernetes/deployment.yaml" />
+        <option value="$PROJECT_DIR$/world-service/src/main/resources/kubernetes/deployment.yaml" />
+        <option value="$PROJECT_DIR$/world-service/src/main/resources/kubernetes/service.yaml" />
+        <option value="$PROJECT_DIR$/world-service/src/main/resources/kubernetes/configMap.yaml" />
+        <option value="$PROJECT_DIR$/hello-service/build.gradle" />
+        <option value="$PROJECT_DIR$/world-service/build.gradle" />
+        <option value="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/values.yaml" />
+        <option value="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/values.yaml" />
+        <option value="$PROJECT_DIR$/Readme.txt" />
+        <option value="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/values-canary.yaml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
-    <option name="y" value="27" />
-    <option name="width" value="1269" />
-    <option name="height" value="741" />
+    <option name="y" value="25" />
+    <option name="width" value="1299" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="hello-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="hello-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="hello-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="hello-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="hello-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="hello-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Infra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Infra" type="462c0819:PsiDirectoryNode" />
+              <item name="istio-1.2.4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Infra" type="462c0819:PsiDirectoryNode" />
+              <item name="istio-1.2.4" type="462c0819:PsiDirectoryNode" />
+              <item name="helm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Infra" type="462c0819:PsiDirectoryNode" />
+              <item name="istio-components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="world-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="world-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="world-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="world-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s-istio-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s-istio-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="world-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="world-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566552561764" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hello-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates" />
+      <recent name="$PROJECT_DIR$/Infra/istio-1.2.4" />
+      <recent name="$PROJECT_DIR$/world-service/src/main/resources/helm/world-service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Infra/istio-components" />
+      <recent name="$PROJECT_DIR$/hello-service/src/main/resources/helm" />
+      <recent name="$PROJECT_DIR$/world-service/src/main/resources/helm" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1161,18 +1705,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41819632" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.32952693" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -1180,19 +1721,358 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" weight="0.32960895" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3344209" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32960895" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/gateways/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/pilot/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/kiali/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-481" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/security/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/tracing/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/mixer/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/templates/deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/prometheus/templates/configmap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="280" column="30" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="280" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/galley-dashboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" lean-forward="true" selection-end-line="1819" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/istio-mesh-dashboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-end-line="953" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/istio-workload-dashboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="15" lean-forward="true" selection-end-line="2303" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/pilot-dashboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" lean-forward="true" selection-end-line="1788" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/istio-performance-dashboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="562" column="18" lean-forward="true" selection-start-line="562" selection-start-column="18" selection-end-line="562" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/mixer-dashboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="115" column="29" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/grafana/dashboards/istio-service-dashboard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="2532" column="153" lean-forward="true" selection-start-line="2532" selection-start-column="153" selection-end-line="2532" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/clusterrole.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/templates/service.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio/charts/galley/templates/deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/namespace/demo.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/tests/test-connection.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/virtualservice.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/configMap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/templates/deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="27" selection-start-line="27" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/virtualservice.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/src/main/resources/kubernetes/service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/configMap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/src/main/resources/kubernetes/configMap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/templates/deployment.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/src/main/resources/kubernetes/deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/kubernetes/deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="45" selection-start-line="5" selection-start-column="2" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/kubernetes/service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/kubernetes/configMap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/.helmignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-1.2.4/helm/istio-init/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/src/main/resources/helm/hello-service/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/values-canary.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world-service/src/main/resources/helm/world-service/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infra/istio-components/istio-gateway.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

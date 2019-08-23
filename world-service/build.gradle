@@ -40,7 +40,8 @@ dependencies {
 
 docker {
     dependsOn build
-    name "singhravindra/world-service:latest"
+    def dockerrepo = project.properties.getOrDefault('dockerusername', 'singhravindra')
+    name dockerrepo +"singhravindra/world-service:latest"
     dockerfile file('src/main/resources/docker/Dockerfile')
     files bootJar.archivePath
     buildArgs(['JAR_FILE': "${bootJar.archiveName}"])

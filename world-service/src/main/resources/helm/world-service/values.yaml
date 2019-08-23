@@ -7,7 +7,10 @@ deployment:
   name: world-service
   image: singhravindra/world-service:latest
   port: '8080'
-  MESSAGE: 'world'
+configMap:
+  name: world-service
+  data:
+    message: 'world'
 image:
   repository: nginx
   tag: stable
@@ -52,3 +55,9 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+release:
+  type: stable
+istio:
+  enabled: true
+  virtualservice:
+    name: world-service
